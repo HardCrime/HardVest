@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #000;
+  color: white;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #1a001f;
+  padding: 1rem;
+}
+
+.nav button {
+  background: transparent;
+  border: 2px solid #a300ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.nav button:hover {
+  background-color: #a300ff;
+  color: black;
+}
+
+.content-section {
+  display: none;
+  margin-top: 2rem;
+  border: 1px solid #a300ff;
+  padding: 2rem;
+  box-shadow: 0 0 20px #a300ff;
+}
+
+.content-section a {
+  color: #a300ff;
+  text-decoration: underline;
+}
+
+.roulette-section {
+  margin-top: 4rem;
+}
+
+.wheel {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  background: conic-gradient(#8e44ad 0% 12.5%, #9b59b6 12.5% 25%, #3498db 25% 37.5%, #e74c3c 37.5% 50%, #f1c40f 50% 62.5%, #2ecc71 62.5% 75%, #e67e22 75% 87.5%, #1abc9c 87.5% 100%);
+  transition: transform 4s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+button {
+  background-color: #a300ff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #a300ff;
+}
+
+#timer {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
